@@ -6,7 +6,6 @@ document.addEventListener('DOMContentLoaded',function() {
   fetchAllToys()
 });
 
-
 addBtn.addEventListener('click', () => {
   // hide & seek with the form
   addToy = !addToy
@@ -56,14 +55,11 @@ function displayToy(toy){
 
 function createNewToy(e){
   e.preventDefault()
-  console.log(e.target)
-
   let newToy = {
     name: e.target.name.value,
     image: e.target.image.value,
     likes: 0
   }
-  // debugger
   addToyToDb(newToy)
 }
 
@@ -85,14 +81,12 @@ function addToyToDb(newToy){
 }
 
 function editLikes(e){
-  console.log(e.target.dataset.id)
   fetch(`http://localhost:3000/toys/${e.target.dataset.id}`)
   .then(response => response.json())
   .then(toy => changeLikes(toy,e))
 }
 
 function changeLikes(toy, e){
-  console.log(toy, e.target)
   toy.likes += 1
   fetch(`http://localhost:3000/toys/${e.target.dataset.id}`,{
     method: "PATCH",
