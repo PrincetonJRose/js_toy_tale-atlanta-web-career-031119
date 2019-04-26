@@ -4,13 +4,13 @@
       "id": 1,
       "name": "Woody",
       "image": "http://www.pngmart.com/files/3/Toy-Story-Woody-PNG-Photos.png",
-      "likes": 5
+      "likes": 3
     },
     {
       "id": 2,
       "name": "Buzz Lightyear",
       "image": "http://www.pngmart.com/files/6/Buzz-Lightyear-PNG-Transparent-Picture.png",
-      "likes": 8
+      "likes": 10
     },
     {
       "id": 3,
@@ -46,7 +46,22 @@
       "id": 8,
       "name": "Little Green Men",
       "image": "http://www.pngmart.com/files/3/Toy-Story-Alien-PNG-File.png",
-      "likes": -2
+      "likes": 1
+    },
+    {
+      "newToy": {
+        "name": "Green Army Men",
+        "image": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fimages-na.ssl-images-amazon.com%2Fimages%2FI%2F41SkjzFY7WL._SL500_AC_SS350_.jpg&imgrefurl=https%3A%2F%2Fwww.amazon.com%2FMedicom-Disney-Pixar-Detail-Figure%2Fdp%2FB07355895S&docid=o1EcPDc01JpdwM&tbnid=IyNbd9pDkJozjM%3A&vet=10ahUKEwjunbL7ju7hAhUCpFkKHfAEADkQMwhYKAAwAA..i&w=350&h=350&bih=665&biw=1280&q=toy%20story%20army%20men&ved=0ahUKEwjunbL7ju7hAhUCpFkKHfAEADkQMwhYKAAwAA&iact=mrc&uact=8",
+        "likes": 0
+      },
+      "id": 9,
+      "likes": 1
+    },
+    {
+      "name": "Green Army Men",
+      "image": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fimages-na.ssl-images-amazon.com%2Fimages%2FI%2F41SkjzFY7WL._SL500_AC_SS350_.jpg&imgrefurl=https%3A%2F%2Fwww.amazon.com%2FMedicom-Disney-Pixar-Detail-Figure%2Fdp%2FB07355895S&docid=o1EcPDc01JpdwM&tbnid=IyNbd9pDkJozjM%3A&vet=10ahUKEwjunbL7ju7hAhUCpFkKHfAEADkQMwhYKAAwAA..i&w=350&h=350&bih=665&biw=1280&q=toy%20story%20army%20men&ved=0ahUKEwjunbL7ju7hAhUCpFkKHfAEADkQMwhYKAAwAA&iact=mrc&uact=8",
+      "likes": 3,
+      "id": 10
     }
   ]
 }

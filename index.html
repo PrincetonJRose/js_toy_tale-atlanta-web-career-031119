@@ -13,14 +13,14 @@
     </div>
 
     <div class="container">
-      <form class="add-toy-form" style="">
+      <form class="add-toy-form" id="add-new-toy-form" style="">
         <h3>Create a toy!</h3>
 
         <input type="text" name="name" value="" placeholder="Enter a toy's name..." class="input-text">
         <br>
         <input type="text" name="image" value="" placeholder="Enter a toy's image URL..." class="input-text">
         <br>
-        <input type="submit" name="submit" value="Create New Toy" class="submit">
+        <input id="submitToy" type="submit" name="submit" value="Create New Toy" class="submit">
       </form>
     </div>
     <p style='text-align:center' >Andy needs your help! <button id='new-toy-btn'>Add a new toy!</button></p>
@@ -30,6 +30,6 @@
     </div>
 
 
-    <script type="text/javascript" src="src/index.js"></script>
+    <script type="text/javascript" src="src/index.js" defer></script>
   </body>
 </html>
